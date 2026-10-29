@@ -8,4 +8,9 @@ cask "kubeview" do
   homepage "https://kubeview.sengporkeat.com"
 
   app "KubeView.app"
+
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-dr", "com.apple.quarantine", "#{appdir}/KubeView.app"]
+  end
 end

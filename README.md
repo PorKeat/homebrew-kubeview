@@ -3,6 +3,7 @@
 Install the KubeView desktop app on macOS:
 
 ```bash
+brew trust porkeat/kubeview
 brew tap Porkeat/kubeview
 brew install --cask kubeview
 ```

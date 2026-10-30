@@ -1,6 +1,6 @@
 cask "kubeview" do
-  version "0.2.0"
-  sha256 "8cd70a40d6340e66d01484bb1581a1164f65f00ab3fb83e436522401d09ad453"
+  version "0.3.0"
+  sha256 "cce970835e245789ff00350b7071d0a3b9a268897c2f05653de282af85d54713"
 
   url "https://kubeview.sengporkeat.com/downloads/KubeView_#{version}_universal.dmg"
   name "KubeView"
